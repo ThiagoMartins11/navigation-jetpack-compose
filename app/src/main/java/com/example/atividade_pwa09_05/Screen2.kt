@@ -33,7 +33,7 @@ fun Screen2(controladorDeNavegação:NavHostController) {
 
 
             Text(text = "Screen 2")
-            Button(onClick = {navController.popBackStack()}) {
+            Button(onClick = {controladorDeNavegação.popBackStack()}) {
                 Text(text = "Next")
             }
             //Button(onClick = {navController.navigateUp()}) {
